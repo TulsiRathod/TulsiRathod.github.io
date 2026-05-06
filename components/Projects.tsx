@@ -22,11 +22,18 @@ const projects = [
     repo: "https://github.com/TulsiRathod/AlmaPlus",
   },
   {
-    title: "DemoKafka & DemoGraphql",
+    title: "Rockoly",
     blurb:
-      "Java sandboxes for exploring Kafka producer/consumer patterns and GraphQL schema design — extracted while learning patterns later applied at work.",
-    tags: ["Java", "Kafka", "GraphQL"],
-    repo: "https://github.com/TulsiRathod?tab=repositories",
+      "Team event management web app for organizing and managing team-building events across schools, companies, and chefs — bookings, scheduling, and participant flows in a React/Node stack.",
+    tags: ["React", "Node.js", "Event Management"],
+    repo: "https://github.com/TulsiRathod/Rockoly",
+  },
+  {
+    title: "SEGPLAY",
+    blurb:
+      "React-based gaming/play platform — UI components, state-driven gameplay views, and responsive layouts. Built as part of an early frontend deep-dive.",
+    tags: ["React", "JavaScript", "UI"],
+    repo: "https://github.com/TulsiRathod/SEGPLAY-main",
   },
   {
     title: "NewsAPI",
