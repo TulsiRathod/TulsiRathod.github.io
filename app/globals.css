@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0a0a0f;
+  --fg: #e8e8ee;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+.light body { background: #fafafa; color: #0a0a0f; }
+
+@layer components {
+  .container-x { @apply mx-auto max-w-5xl px-6; }
+  .section { @apply py-24 scroll-mt-20; }
+  .h-eyebrow { @apply text-xs font-mono uppercase tracking-[0.2em] text-accent-soft mb-3; }
+  .h-section { @apply text-3xl md:text-4xl font-semibold tracking-tight mb-10; }
+  .card {
+    @apply rounded-2xl border border-white/10 bg-white/[0.03] p-6
+           transition hover:border-accent/40 hover:bg-white/[0.06];
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-white/10
+           bg-white/5 px-2.5 py-1 text-xs font-mono text-white/80;
+  }
+  .link {
+    @apply underline decoration-accent/50 underline-offset-4
+           transition hover:decoration-accent;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #fff 0%, #a78bfa 50%, #7c5cff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grid-bg {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(255,255,255,0.06) 1px, transparent 0);
+  background-size: 24px 24px;
+}
