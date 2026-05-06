@@ -25,11 +25,11 @@ export default function About() {
           </p>
         </div>
         <aside className="card font-mono text-sm space-y-3">
-          <div className="flex justify-between"><span className="text-white/50">role</span><span>Associate Backend Developer</span></div>
-          <div className="flex justify-between"><span className="text-white/50">company</span><span>Commotion</span></div>
-          <div className="flex justify-between"><span className="text-white/50">stack</span><span>Java · Spring · Kafka</span></div>
-          <div className="flex justify-between"><span className="text-white/50">edu</span><span>MSc IT, DAU</span></div>
-          <div className="flex justify-between"><span className="text-white/50">leetcode</span><span>1905 peak</span></div>
+          <div className="flex justify-between gap-4"><span className="text-white/50 shrink-0">role</span><span className="text-right">Associate Backend Developer</span></div>
+          <div className="flex justify-between gap-4"><span className="text-white/50 shrink-0">company</span><span className="text-right">Commotion</span></div>
+          <div className="flex justify-between gap-4"><span className="text-white/50 shrink-0">stack</span><span className="text-right">Java · Spring · Kafka</span></div>
+          <div className="flex justify-between gap-4"><span className="text-white/50 shrink-0">edu</span><span className="text-right">MSc IT, DAU</span></div>
+          <div className="flex justify-between gap-4"><span className="text-white/50 shrink-0">leetcode</span><span className="text-right">1905 peak</span></div>
         </aside>
       </div>
     </section>

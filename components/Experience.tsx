@@ -48,10 +48,12 @@ export default function Experience() {
         {jobs.map((j) => (
           <li key={j.role + j.period} className="pl-8 relative">
             <span className="absolute -left-[7px] top-2 h-3 w-3 rounded-full bg-accent shadow-[0_0_0_4px_rgba(124,92,255,0.15)]" />
-            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <h3 className="text-xl font-medium">{j.role}</h3>
-              <span className="text-accent-soft">@ {j.company}</span>
-              <span className="font-mono text-xs text-white/50 ml-auto">{j.period}</span>
+            <div className="flex items-baseline justify-between gap-3">
+              <div className="flex flex-wrap items-baseline gap-x-2">
+                <h3 className="text-xl font-medium">{j.role}</h3>
+                <span className="text-accent-soft">@ {j.company}</span>
+              </div>
+              <span className="font-mono text-xs text-white/50 shrink-0 text-right">{j.period}</span>
             </div>
             <p className="font-mono text-xs text-white/40 mt-1">{j.location}</p>
             <ul className="mt-4 space-y-2 text-white/75 leading-relaxed">
