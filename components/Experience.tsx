@@ -9,8 +9,8 @@ const jobs = [
       "Built AWS SES email integration with SNS callback handling, auto-confirmation, and per-connection configuration sets — replacing a third-party vendor.",
       "Engineered bulk-import pipelines for SMS templates and entity imports (Assets, Stores, Products) using Netflix Conductor with full upload-history tracking.",
       "Delivered voice-agent capabilities (voice-to-text continuity, inbound agents) and queue working-hours support with fallback routing across gRPC + Helm.",
-      "Implemented journey-builder pause semantics across scheduler/decision nodes, fixing circular dependencies and event-topic routing.",
-      "Tuned Kafka consumer concurrency across services and migrated Twilio callbacks to Kafka, provisioning new topics across Helm charts.",
+      "Implemented journey-builder pause semantics across scheduler/decision nodes, fixing circular dependencies and event-topic routing; built multi-tab agent console sync via real-time message broadcast.",
+      "Tuned Kafka consumer concurrency across services and migrated Twilio callbacks to Kafka, provisioning new topics across Helm charts; authored org-level data cleanup APIs in db-manager.",
     ],
     tags: ["Java", "Spring Boot", "Kafka", "gRPC", "Conductor", "Helm", "AWS"],
   },
@@ -23,6 +23,7 @@ const jobs = [
       "Developed REST and GraphQL endpoints across core backend services for notifications, templates, and tenant configuration.",
       "Implemented Elasticsearch-based search with index design and query construction for tenant data lookup.",
       "Wrote unit/integration tests on critical flows, debugged production issues using Grafana, reviewed event-driven workflows.",
+      "Improved analytics dimension lookups for nested group operations, refactored scheduler trigger macros, and hardened third-party integration reliability (Brevo unsubscribe opt-out, vendor product import null-safety); standardized the frontend Input component across the Automation module.",
     ],
     tags: ["Java", "Spring Boot", "GraphQL", "Elasticsearch", "Grafana"],
   },
@@ -32,10 +33,11 @@ const jobs = [
     period: "Jun 2022 — Jan 2023",
     location: "Surat, IN",
     bullets: [
-      "Built reusable, scalable UI components using React, Hooks, and component-driven architecture — integrating REST APIs with efficient state management.",
-      "Optimized rendering paths to reduce re-renders, improving page load by 25%; delivered responsive cross-browser layouts.",
+      "Owned end-to-end development of the Marketing Campaign module in a large-scale React/TypeScript enterprise app — campaign creation, listing, and detail flows with form validation, discard/confirmation modals, publish/save lifecycle, and multiple production bug fixes.",
+      "Designed and implemented UI + Redux state management for External Integrations & Credentials — connected third-party channels via REST APIs, built reusable channel cards, listing views, and context-menu-driven actions (view/delete).",
+      "Drove platform-wide UI and infrastructure improvements — standardized the shared Input component, migrated CSS → SCSS, added Axios interceptors and lazy-loading for performance, and contributed to multi-agentic chat features including a context-menu popup chat and multi-tab message-sync reliability fixes.",
     ],
-    tags: ["React", "Redux", "REST"],
+    tags: ["React", "TypeScript", "Redux", "SCSS", "Axios"],
   },
 ];
 
