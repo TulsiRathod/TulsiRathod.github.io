@@ -6,22 +6,32 @@ export default function About() {
       <div className="grid md:grid-cols-3 gap-10">
         <div className="md:col-span-2 space-y-5 text-white/75 leading-relaxed text-lg">
           <p>
-            I&apos;m a backend developer focused on building reliable services at
-            scale — gRPC contracts, Kafka topics, Conductor workflows, and the
-            unglamorous plumbing that keeps event-driven systems honest.
+            I&apos;m a backend developer who likes the parts of a system most
+            people scroll past — the gRPC contracts, the Kafka topic plans, the
+            Conductor workflows, the Helm chart values that decide whether a
+            release goes smoothly or gets rolled back at 2 a.m.
           </p>
           <p>
             At <span className="text-white">Commotion</span> I work on the AI
-            Worker / Agent platform: CRUD APIs, MCP server tooling, voice-agent
-            capabilities, and journey-builder orchestration. I migrated Twilio
-            callbacks to Kafka, replaced a third-party email vendor with AWS SES
-            + SNS, and tuned consumer concurrency across services.
+            Worker / Agent platform — CRUD APIs, MCP server tooling, voice-agent
+            capabilities, and journey-builder orchestration. Recent wins:
+            replacing a third-party email vendor with a full AWS SES + SNS
+            pipeline, migrating Twilio callbacks onto Kafka, and tuning consumer
+            concurrency across services so the queue stops being a mystery.
           </p>
           <p>
-            Before that I shipped REST/GraphQL endpoints, integrated Elasticsearch
-            for tenant search, and spent a chunk of 2022 living in React. I like
-            problems that look small until you read the second paragraph of the
-            ticket.
+            Before backend I spent a year deep in React/TypeScript at Technoyuga
+            — owning a Marketing Campaign module in a large enterprise app,
+            building Redux-driven integrations, and migrating styles to SCSS. I
+            still write frontend when a feature needs end-to-end ownership; this
+            site is a small example.
+          </p>
+          <p>
+            Outside of work I&apos;m on{" "}
+            <a className="link" href="https://leetcode.com/" target="_blank">LeetCode</a>{" "}
+            (800+ solved, peak 1905) and chasing whatever distributed-systems
+            paper keeps me curious that week. I like problems that look small
+            until you read the second paragraph of the ticket.
           </p>
         </div>
         <aside className="card font-mono text-sm space-y-3">
